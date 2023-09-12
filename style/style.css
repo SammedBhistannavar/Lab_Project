@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgb(235, 235, 235);
+
+}
+.contactcontent{
+    max-width: 800px;
+    text-align: center;
+}
+.contactcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contactinfo{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.contactbox{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.contacticon{
+    min-width: 60px;
+    height: 60px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+.textcontact{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:black;
+    flex-direction: column;
+    font-weight: 300;
+}
+form{
+width: 40%;
+padding: 40px;
+background-color: white;
+border-radius: 8px;
+}
+form .inputBox{
+    position: relative;
+    width: 100%;
+    margin: 10px;
+}
+form .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:891px){
+.contact{
+    padding: 50px;
+}
+.contactcontainer{
+    flex-direction: column;
+}
+.contactcontainer .contactinfo{
+    margin-bottom: 40px;
+}
+
+.contactcontainer .contactinfo {
+    width: 100%; 
+}
+.contactcontainer form {
+    width: 100%; 
+}
+.contactcontainer form p{
+    width: 100%;
+}
+}
+    

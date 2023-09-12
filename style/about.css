@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 110px;
+    padding: 0;
+    
+}
+h1{
+    color:rgb(95, 128, 83);
+    text-align: center;
+}
+.section {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Change as per your need */
+    overflow: hidden;
+}
+
+.section:hover {
+    overflow: visible;
+    border: 3px solid rgb(75, 70, 79);
+}
+
+.contents {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+    color: #000000;
+}
+#about{
+    
+        background-image: url(/images/image-1.webp);
+        background-size: 100%;
+        width: 100%;
+        height:400px ;
+        padding: 50px;
+        text-align:center;
+        margin: 10px;
+        font-size: 25px;
+        
+    }
+    
+
+
+#team {
+    background-image: url(/images/team.jpg);
+    background-size: cover;
+    height:400px ;
+    padding: 50px;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+    width: 100%;
+}
+
+#vision {
+    background-image: url(/images/vision1.jpeg);
+    background-size: cover;
+    text-align: center;
+    height: 400px;
+    padding: 50px;
+    font-size: 30px;
+    margin: 10px;
+    width: 100%;
+}
+
+#mission {
+    background-image: url(/images/mis.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    padding: 50px;
+    height: 500px;
+    font-size: 30px;
+    width: 100%;
+
+}
+
+#functions {
+    background-image: url(/images/func.webp);
+    background-size: cover;
+    font-size: 25px;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    
+}
+#function{
+    display: flex;
+    gap: 50px;
+}
